@@ -15,4 +15,8 @@ print(nick.__name__)
 print(__name__)
 
 info_lst = []#як дізнатися як працювати зі списками?
+print(type(info_lst))
+for method in dir(info_lst):
+    print(method)
+print(info_lst.__len__)
 
